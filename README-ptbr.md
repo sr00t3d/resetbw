@@ -46,6 +46,19 @@ sudo ./resetbw.sh restore /var/backups/resetbw/20261122/percio-20261122T120000Z.
 
 ---
 
+## Exemplo de Saída Real
+
+```text
+================================================================================================
+ resetbw.sh v2.0.0 | Bandwidth Audit (2026-11) | 2026-11-22T11:25:54Z
+================================================================================================
+USER    PERIOD   USED        LIMIT      PCT  STATUS  STORAGE
+------  -------  ----------  ---------  ---  ------  -----------------
+percio  2026-11  512.00 MiB  unlimited  -    OK      db:1 sql:0 flat:1
+```
+
+---
+
 ## Licença
 
 Distribuído sob a licença [Apache License 2.0](LICENSE).

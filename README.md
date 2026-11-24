@@ -59,6 +59,19 @@ sudo ./resetbw.sh audit --all -o json
 
 ---
 
+## Real Output Example
+
+```text
+================================================================================================
+ resetbw.sh v2.0.0 | Bandwidth Audit (2026-11) | 2026-11-22T11:25:54Z
+================================================================================================
+USER    PERIOD   USED        LIMIT      PCT  STATUS  STORAGE
+------  -------  ----------  ---------  ---  ------  -----------------
+percio  2026-11  512.00 MiB  unlimited  -    OK      db:1 sql:0 flat:1
+```
+
+---
+
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE).
